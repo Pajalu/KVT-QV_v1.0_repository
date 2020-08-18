@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="9.2.7">
+<ModelTarget name="qv-200-006_target" targetId="6091d2dd45a4485698e175746d238b94" version="11.1" toolVersion="9.2.7" bbox="-0.039000 -0.013500 -0.013500 0.055338 0.013500 0.013500" previewImage="6091d2dd45a4485698e175746d238b94_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="qv-200-006_targets_assembly" assemblyId="ef116b4a603a4350bb75998486c1f8e2">
+<Part name="qv-200-006_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-200-006_view" translation="0 4.30637e-17 0.125" rotation="AD: -1 0 0 90" image="qv-200-006_target_qv-200-006_view.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

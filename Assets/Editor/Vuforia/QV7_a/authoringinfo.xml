@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="20.0" toolVersion="9.2.7">
+<ModelTarget name="qv-600-006_target_aus" targetId="608220f6e49a4220ae152415e09b0bcf" version="11.1" toolVersion="9.2.7" bbox="-0.040950 -0.013500 -0.013500 0.059677 0.013500 0.013500" previewImage="608220f6e49a4220ae152415e09b0bcf_preview.jpg"/>
+<ModelTarget name="qv-600-050_target_aus" targetId="5cd4ef3c132c4833a06886ec9ca89264" version="11.1" toolVersion="9.2.7" bbox="-0.097750 -0.052500 -0.052500 0.132354 0.061000 0.052500" previewImage="5cd4ef3c132c4833a06886ec9ca89264_preview.jpg"/>
+<ModelTarget name="qv-600-150_target" targetId="103fdf47dac8401b95e1c28045a62e97" version="11.1" toolVersion="9.2.7" bbox="-0.187000 -0.142000 -0.142000 0.187000 0.149536 0.142000" previewImage="103fdf47dac8401b95e1c28045a62e97_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="qv-600-006_target_auss_assembly" assemblyId="19236f60a0dc4bc5924e10c8df2af9dc">
+<Part name="qv-600-006_target_aus" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-600-006_aus_view" translation="0 4.5262e-17 0.129" rotation="AD: 0 1.4142135623730951 -1.414213562373095 180" image="qv-600-006_target_aus_qv-600-006_aus_view.png" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-600-050_target_auss_assembly" assemblyId="1861033db3744da7af690dc234fa4918">
+<Part name="qv-600-050_target_aus" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-600-050_aus_view" translation="0 3.46072e-17 0.280731" rotation="AD: 0 1.4142135623730951 -1.414213562373095 180" image="qv-600-050_target_aus_qv-600-050_aus_view.png" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-600-150_targets_assembly" assemblyId="752a6e02e61443e98da94d2416393c31">
+<Part name="qv-600-150_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-600-150_view" translation="-1.54346e-16 5.46041e-17 0.695111" rotation="AD: -0.8944271909999159 0.8944271909999159 -0.8944271909999161 120" image="qv-600-150_target_qv-600-150_view.png" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<ModelTargetDatabase mtDBid="7b980b87fed044df9252037d182e9efc" name="QV7_a" toolVersion="13.0" version="13.0">
+    <RecognitionResult assemblyId="1861033db3744da7af690dc234fa4918" assemblyName="qv-600-050_target_aus" entryPoint="qv-600-050_aus_view" />
+    <RecognitionResult assemblyId="19236f60a0dc4bc5924e10c8df2af9dc" assemblyName="qv-600-006_target_aus" entryPoint="qv-600-006_aus_view" />
+    <RecognitionResult assemblyId="752a6e02e61443e98da94d2416393c31" assemblyName="qv-600-150_target" entryPoint="qv-600-150_view" />
+</ModelTargetDatabase>
+
+</QCARInfo>

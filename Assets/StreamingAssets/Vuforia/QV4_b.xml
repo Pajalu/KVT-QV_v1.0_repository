@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="qv-220-006_target_aus" motionHint="adaptive" trackingMode="default"/>
+<ModelTarget name="qv-220-025_target_aus" motionHint="static" trackingMode="default"/>
+<ModelTarget name="qv-220_240-065_target_aus" motionHint="static" trackingMode="default"/>
+<ModelTarget name="qv-240-080_target" motionHint="adaptive" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="qv-220-006_target_auss_assembly" assemblyId="6b3c5855465145d8b3d5cdd47eacaadf">
+<Part name="qv-220-006_target_aus" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-220-006_target_aus" translation="0.00163368 0.00316898 0.128247" rotation="AD: -8.659560562354934e-17 -1.4142135623730947 1.4142135623730954 180" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-220-025_target_auss_assembly" assemblyId="cb9e45a5889e43d7a210353bd8cda7f0">
+<Part name="qv-220-025_target_aus" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="0 -2.99547e-17 0.189164" rotation="AD: 0 1.4142135623730951 -1.414213562373095 180" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-220_240-065_target_auss_assembly" assemblyId="3db674ff51ed4966aeb045c5d4973800">
+<Part name="qv-220_240-065_target_aus" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-220_240-065_aus_view" translation="0 -3.83654e-17 0.443142" rotation="AD: 0 1.4142135623730951 -1.414213562373095 180" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-240-080_targets_assembly" assemblyId="1c77c44fb88d412aaed1b97e2305b3f1">
+<Part name="qv-240-080_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-240-080_view" translation="0 1.76387e-16 0.570196" rotation="AD: -1 0 0 90" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<ModelTargetDatabase name="QV4_b" />
+</QCARConfig>

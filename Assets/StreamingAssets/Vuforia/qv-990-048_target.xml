@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="qv-990-048_target" motionHint="static" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="qv-990-048_targets_assembly" assemblyId="9f71edc4b9734f6899775b86894046b2">
+<Part name="qv-990-048_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-990-048_view" translation="0 7.99089e-17 0.244003" rotation="AD: 0 1.4142135623730951 -1.414213562373095 180" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

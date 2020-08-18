@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="qv-120-065_target" motionHint="adaptive" trackingMode="default"/>
+<ModelTarget name="qv-120-080_target" motionHint="static" trackingMode="default"/>
+<ModelTarget name="qv-120-150_target" motionHint="adaptive" trackingMode="default"/>
+<ModelTarget name="qv-120_140-300_target" motionHint="adaptive" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="qv-120-065_targets_assembly" assemblyId="a53a1a67a107465a980889798877a7fb">
+<Part name="qv-120-065_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-120-065_view" translation="3.07359e-33 5.16838e-17 0.309" rotation="AD: 0.8944271909999159 0.8944271909999154 -0.8944271909999159 240" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-120-080_targets_assembly" assemblyId="b20803fc3cb64562b16b88e74f728f93">
+<Part name="qv-120-080_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-120-080_view" translation="-3.2516e-16 2.38989e-17 0.446" rotation="AD: -0.8944271909999159 0.8944271909999159 -0.8944271909999161 120" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-120-150_targets_assembly" assemblyId="996890f65122404fbd3cb272f7e485fc">
+<Part name="qv-120-150_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-120-150_view" translation="-6.96432e-17 -3.03909e-17 0.689624" rotation="AD: -0.8944271909999072 0.8944271909999358 -0.8944271909999361 120" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-120_140-300_targets_assembly" assemblyId="9c448016aa704eef87e84e69f200a5b4">
+<Part name="qv-120_140-300_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-120_140-300_view" translation="-2.26155e-16 2.41267e-16 1.01851" rotation="AD: -0.8944271909999159 0.8944271909999159 -0.8944271909999161 120" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<ModelTargetDatabase name="QV2_a" />
+</QCARConfig>

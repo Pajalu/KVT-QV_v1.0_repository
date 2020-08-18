@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="qv-120-080_target" motionHint="static"/>
+
+</Tracking>
+
+<Assembly name="qv-120-080_targets_assembly" assemblyId="b20803fc3cb64562b16b88e74f728f93">
+<Part name="qv-120-080_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="view2_qv-120-080_target" translation="2.26128e-16 1.34856e-16 0.446" rotation="AD: 0.8944271909999159 0.8944271909999154 -0.8944271909999159 240" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

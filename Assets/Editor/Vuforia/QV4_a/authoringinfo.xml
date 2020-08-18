@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="20.0" toolVersion="9.2.7">
+<ModelTarget name="qv-220-025_target_aus" targetId="bc9585c59d3a4fe7806c6d0fb6bb1c0d" version="11.1" toolVersion="9.2.7" bbox="-0.069500 -0.035000 -0.035000 0.095194 0.035000 0.035000" previewImage="bc9585c59d3a4fe7806c6d0fb6bb1c0d_preview.jpg"/>
+<ModelTarget name="qv-220_240-065_target_aus" targetId="bfebd353f37a4f60a6b79f8aea32453f" version="11.1" toolVersion="9.2.7" bbox="-0.106000 -0.065000 -0.065000 0.139075 0.065000 0.065000" previewImage="bfebd353f37a4f60a6b79f8aea32453f_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="qv-220-025_target_auss_assembly" assemblyId="cb9e45a5889e43d7a210353bd8cda7f0">
+<Part name="qv-220-025_target_aus" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="0 -2.99547e-17 0.189164" rotation="AD: 0 1.4142135623730951 -1.414213562373095 180" image="qv-220-025_target_aus_viewpoint_0000.png" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-220_240-065_target_auss_assembly" assemblyId="3db674ff51ed4966aeb045c5d4973800">
+<Part name="qv-220_240-065_target_aus" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-220_240-065_aus_view" translation="0 -3.83654e-17 0.443142" rotation="AD: 0 1.4142135623730951 -1.414213562373095 180" image="qv-220_240-065_target_aus_qv-220_240-065_aus_view.png" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<ModelTargetDatabase mtDBid="a6941f415c434ddc8f0338ab919380b7" name="QV4_a" toolVersion="13.0" version="13.0">
+    <RecognitionResult assemblyId="3db674ff51ed4966aeb045c5d4973800" assemblyName="qv-220_240-065_target_aus" entryPoint="qv-220_240-065_aus_view" />
+    <RecognitionResult assemblyId="cb9e45a5889e43d7a210353bd8cda7f0" assemblyName="qv-220-025_target_aus" entryPoint="viewpoint_0000" />
+</ModelTargetDatabase>
+
+</QCARInfo>

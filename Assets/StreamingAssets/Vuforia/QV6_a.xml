@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="qv-990-048_target" motionHint="static" trackingMode="default"/>
+<ModelTarget name="qv-999-040_christ_target_aus" motionHint="adaptive" trackingMode="default"/>
+<ModelTarget name="qv-999-040_dowald_target_aus" motionHint="adaptive" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="qv-990-048_targets_assembly" assemblyId="9f71edc4b9734f6899775b86894046b2">
+<Part name="qv-990-048_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-990-048_view" translation="0 7.99089e-17 0.244003" rotation="AD: 0 1.4142135623730951 -1.414213562373095 180" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-999-040_christ_target_auss_assembly" assemblyId="09bc18ed081749998bd82b0779a4fbb4">
+<Part name="qv-999-040_christ_target_aus" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-999-040_christ_view" translation="7.97339e-07 -3.30024e-05 0.308442" rotation="AD: -1 1.224722300522699e-16 -1.2247223005226994e-16 89.9929" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-999-040_dowald_target_auss_assembly" assemblyId="d6d6f6bb1f5e41ee8aafe610273548a1">
+<Part name="qv-999-040_dowald_target_aus" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-999-040_dowald_view" translation="0 1.34414e-16 0.349086" rotation="AD: -1 0 0 90" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<ModelTargetDatabase name="QV6_a" />
+</QCARConfig>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="qv-100-025_target" motionHint="adaptive" trackingMode="default"/>
+<ModelTarget name="qv-200-006_target" motionHint="static" trackingMode="default"/>
+<ModelTarget name="qv-200-050_target_aus" motionHint="static" trackingMode="default"/>
+<ModelTarget name="qv-200-100_target" motionHint="adaptive" trackingMode="default"/>
+<ModelTarget name="qv-200-150_target" motionHint="static" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="qv-100-025_targets_assembly" assemblyId="41a5fafcdf8f45ce844ab8b30ad16ed5">
+<Part name="qv-100-025_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-100-025_target_v" translation="-2.08469e-32 1.20916e-16 0.220711" rotation="AD: 0.8944271909999159 -0.8944271909999154 0.8944271909999159 240" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-200-006_targets_assembly" assemblyId="ef116b4a603a4350bb75998486c1f8e2">
+<Part name="qv-200-006_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-200-006_view" translation="0 4.30637e-17 0.125" rotation="AD: -1 0 0 90" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-200-050_target_auss_assembly" assemblyId="a627567acc8544fcaa5986bccfae1765">
+<Part name="qv-200-050_target_aus" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-200-050_aus_view" translation="0 -1.64533e-16 0.285095" rotation="AD: 0 1.4142135623730951 -1.414213562373095 180" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-200-100_targets_assembly" assemblyId="a0e1a26980604f2a99748c28ace28137">
+<Part name="qv-200-100_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-200-100_view" translation="0 5.44446e-17 0.425186" rotation="AD: 0.8944271909999159 -0.8944271909999156 0.8944271909999156 240" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-200-150_targets_assembly" assemblyId="3c8c19c20b5b46ff9335bcf004f4ad43">
+<Part name="qv-200-150_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-200-150_target_v" translation="3.95794e-16 7.71527e-17 0.63" rotation="AD: 0.8944271909999159 0.8944271909999156 -0.8944271909999156 240" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<ModelTargetDatabase name="QV3_b" />
+</QCARConfig>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="20.0" toolVersion="9.2.7">
+<ModelTarget name="qv-990-048_target" targetId="ce7b81440160457b811729eceba76ffe" version="11.1" toolVersion="9.2.7" bbox="-0.081000 -0.045500 -0.045500 0.114565 0.045500 0.045500" previewImage="ce7b81440160457b811729eceba76ffe_preview.jpg"/>
+<ModelTarget name="qv-999-040_christ_target_aus" targetId="4f3be810046e4491a1b88e5eea072ac4" version="11.1" toolVersion="9.2.7" bbox="-0.067000 -0.045500 -0.045500 0.093800 0.045500 0.045500" previewImage="4f3be810046e4491a1b88e5eea072ac4_preview.jpg"/>
+<ModelTarget name="qv-999-040_dowald_target_aus" targetId="a7919f57fd564b3c923f8d6b802b86d8" version="11.1" toolVersion="9.2.7" bbox="-0.095000 -0.045500 -0.045500 0.128738 0.045500 0.045500" previewImage="a7919f57fd564b3c923f8d6b802b86d8_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="qv-990-048_targets_assembly" assemblyId="9f71edc4b9734f6899775b86894046b2">
+<Part name="qv-990-048_target" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-990-048_view" translation="0 7.99089e-17 0.244003" rotation="AD: 0 1.4142135623730951 -1.414213562373095 180" image="qv-990-048_target_qv-990-048_view.png" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-999-040_christ_target_auss_assembly" assemblyId="09bc18ed081749998bd82b0779a4fbb4">
+<Part name="qv-999-040_christ_target_aus" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-999-040_christ_view" translation="7.97339e-07 -3.30024e-05 0.308442" rotation="AD: -1 1.224722300522699e-16 -1.2247223005226994e-16 89.9929" image="qv-999-040_christ_target_aus_qv-999-040_christ_view.png" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<Assembly name="qv-999-040_dowald_target_auss_assembly" assemblyId="d6d6f6bb1f5e41ee8aafe610273548a1">
+<Part name="qv-999-040_dowald_target_aus" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="qv-999-040_dowald_view" translation="0 1.34414e-16 0.349086" rotation="AD: -1 0 0 90" image="qv-999-040_dowald_target_aus_qv-999-040_dowald_view.png" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<ModelTargetDatabase mtDBid="77bb74a69a8342138323c31048b538ca" name="QV6_a" toolVersion="13.0" version="13.0">
+    <RecognitionResult assemblyId="09bc18ed081749998bd82b0779a4fbb4" assemblyName="qv-999-040_christ_target_aus" entryPoint="qv-999-040_christ_view" />
+    <RecognitionResult assemblyId="9f71edc4b9734f6899775b86894046b2" assemblyName="qv-990-048_target" entryPoint="qv-990-048_view" />
+    <RecognitionResult assemblyId="d6d6f6bb1f5e41ee8aafe610273548a1" assemblyName="qv-999-040_dowald_target_aus" entryPoint="qv-999-040_dowald_view" />
+</ModelTargetDatabase>
+
+</QCARInfo>
